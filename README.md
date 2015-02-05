@@ -1,4 +1,4 @@
-# Leaflet Playback
+# Virtual Fences with Leaflet Playback
 
 This is the final project I made for my [web mapping course] at Oregon State University in the Spring of 2013. The primary engine behind the GPS animation in Leaflet is provided by [LeafletPlayback](https://github.com/hallahan/LeafletPlayback/), a Leaflet plugin that grew out of this project.
 
