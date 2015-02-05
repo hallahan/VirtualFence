@@ -1,6 +1,6 @@
 # Virtual Fences with Leaflet Playback
 
-This is the final project I made for my [web mapping course] at Oregon State University in the Spring of 2013. The primary engine behind the GPS animation in Leaflet is provided by [LeafletPlayback](https://github.com/hallahan/LeafletPlayback/), a Leaflet plugin that grew out of this project.
+This is the final project I made for my web mapping course at [Oregon State University's Cartography Department](http://cartography.oregonstate.edu/). in the Spring of 2013. The primary engine behind the GPS animation in Leaflet is provided by [LeafletPlayback](https://github.com/hallahan/LeafletPlayback/), a Leaflet plugin that grew out of this project.
 
 **NOTE: It appears that Geoloqui will be shutting down it's services on August of 2015. The price I pay for using a _Proprietary Service_...**
 
