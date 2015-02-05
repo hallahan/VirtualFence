@@ -2,11 +2,13 @@
 
 This is the final project I made for my [web mapping course] at Oregon State University in the Spring of 2013. The primary engine behind the GPS animation in Leaflet is provided by [LeafletPlayback](https://github.com/hallahan/LeafletPlayback/), a Leaflet plugin that grew out of this project.
 
-## [View Demo: Interaction of GPS Tracks and Virtual Fences](http://leafletplayback.theoutpost.io)
+**NOTE: It appears that Geoloqui will be shutting down it's services on August of 2015. The price I pay for using a _Proprietary Service_...**
 
-![alt text](https://raw.github.com/hallahan/LeafletPlayback/master/docs/screenshots/readme.png)
+## [View Demo: Interaction of GPS Tracks and Virtual Fences](http://virtualfence.theoutpost.io)
 
-The demo demonstrates the usage of the plug-in in the context of having the replay of GPS tracks trigger Virtual Fences. The location of the GPS tracks during playback are sent to Esri's [Geoloqi](https://geoloqi.com/) API which consumes location updates and fires GeoTrigger messages when a [Virtual Fence](http://en.wikipedia.org/wiki/Geo-fence) is crossed. [See Demo Documentation...](https://github.com/hallahan/LeafletPlayback/blob/master/docs/demo.md)
+![alt text](https://raw.github.com/hallahan/VirtualFence/master/docs/screenshots/readme.png)
+
+The demo demonstrates the usage of the plug-in in the context of having the replay of GPS tracks trigger Virtual Fences. The location of the GPS tracks during playback are sent to Esri's [Geoloqi](https://geoloqi.com/) API which consumes location updates and fires GeoTrigger messages when a [Virtual Fence](http://en.wikipedia.org/wiki/Geo-fence) is crossed. [See Demo Documentation...](https://github.com/hallahan/VirtualFence/blob/master/docs/demo.md)
 
 The LeafletPlayback component provides the ability to replay GPS Tracks in the form of GeoJSON objects. Rather than simply animating a marker along a polyline, the speed of the animation is synchroized to a clock. The playback functionality is similar to a video player--you can start and stop playback, change the playback speed, load GPS tracks, as well as set the playback time with a slider or calendar/time-picker widget.
 
